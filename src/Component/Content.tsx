@@ -237,7 +237,14 @@ export default function Mainpage() {
             >
               <CloseIcon />
             </IconButton>
-            <div className="title" style={{ display: "flex" }}>
+            <div
+              className="title"
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                marginRight: "50px",
+              }}
+            >
               <img className="logo" src={Logo2} alt="" />
               <h1
                 style={{
@@ -300,7 +307,14 @@ export default function Mainpage() {
             >
               <CloseIcon />
             </IconButton>
-            <div className="title" style={{ display: "flex" }}>
+            <div
+              className="title"
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                marginRight: "50px",
+              }}
+            >
               <img className="logo" src={Logo2} alt="" />
               <h1
                 style={{
